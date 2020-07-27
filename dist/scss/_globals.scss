@@ -1,0 +1,41 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: $primary-color;
+}
+
+.btn {
+    border: none;
+    background-color: $btn-color;
+    color: White;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    cursor: pointer;
+    font-family: inherit;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.title {
+    font-family: $font-title;
+    color: $primary-color;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
