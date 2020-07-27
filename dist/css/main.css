@@ -42,138 +42,6 @@ a {
   color: inherit;
 }
 
-@media screen and (min-width: 960px) {
-  body {
-    font-size: 18px;
-  }
-  .top-container {
-    padding: 3.5rem 5rem;
-    background-image: url(../images/bg-hero-desktop.svg);
-    margin-bottom: 10rem;
-  }
-  .header {
-    margin-bottom: 3rem;
-  }
-  .header img {
-    height: 32px;
-  }
-  .header__btn {
-    font-size: 0.8em;
-    padding: 0.9rem 4rem;
-  }
-  .presentation {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0;
-    text-align: start;
-  }
-  .presentation .description {
-    font-size: 1em;
-  }
-  .presentation .title {
-    font-size: 2.2em;
-  }
-  .presentation .text {
-    padding: 4rem 4rem 0 0;
-  }
-  .presentation img {
-    max-width: 52%;
-  }
-  .presentation__btn {
-    padding: 1.3rem 5rem;
-    font-size: 0.7em;
-    margin-top: 1rem;
-  }
-  .middle-content .card {
-    font-size: 18px;
-    text-align: start;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 3rem 1.5rem 2.2rem 7rem;
-    margin-bottom: 3rem;
-    width: 85%;
-  }
-  .middle-content .card__text {
-    width: 45%;
-  }
-  .middle-content .card__text .title {
-    font-size: 1.8rem;
-    line-height: 1em;
-    margin-top: 0;
-  }
-  .middle-content .card__text .description {
-    margin-bottom: 0;
-  }
-  .middle-content .card img {
-    width: 40%;
-    padding: 1rem;
-  }
-  .middle-content .img-right {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-  }
-  .middle-content .ready-btn {
-    width: 50rem;
-    padding: 2.5rem 0 2rem 0;
-    top: 7rem;
-  }
-  .middle-content .ready-btn .title {
-    font-size: 2.2em;
-  }
-  .middle-content .ready-btn__btn {
-    margin-top: 0.5rem;
-    font-size: 18px;
-    padding: 1.8rem 6.5rem;
-  }
-  .footer {
-    padding: 12rem 5rem 3.8rem 7rem;
-  }
-  .footer__logo {
-    width: 14.5rem;
-    height: auto;
-    margin-bottom: 2rem;
-  }
-  .footer__container {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .footer__container > * {
-    margin: 0;
-  }
-  .footer__container--addressetc {
-    font-size: 16px;
-    -webkit-box-flex: 2;
-        -ms-flex-positive: 2;
-            flex-grow: 2;
-    max-width: 40%;
-  }
-  .footer__container--addressetc p {
-    max-width: 70%;
-  }
-  .footer__container--social {
-    text-align: start;
-  }
-  .footer .copyright {
-    text-align: end;
-  }
-}
-
 .top-container {
   background-image: url(../images/bg-hero-mobile.svg);
   background-color: #ebfbff;
@@ -395,5 +263,137 @@ a {
 .footer .copyright {
   font-size: 12px;
   text-align: center;
+}
+
+@media screen and (min-width: 960px) {
+  body {
+    font-size: 18px;
+  }
+  .top-container {
+    padding: 3.5rem 5rem;
+    background-image: url(../images/bg-hero-desktop.svg);
+    margin-bottom: 10rem;
+  }
+  .header {
+    margin-bottom: 3rem;
+  }
+  .header img {
+    height: 32px;
+  }
+  .header__btn {
+    font-size: 0.8em;
+    padding: 0.9rem 4rem;
+  }
+  .presentation {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    text-align: start;
+  }
+  .presentation .description {
+    font-size: 1em;
+  }
+  .presentation .title {
+    font-size: 2.2em;
+  }
+  .presentation .text {
+    padding: 4rem 4rem 0 0;
+  }
+  .presentation img {
+    max-width: 52%;
+  }
+  .presentation__btn {
+    padding: 1.3rem 5rem;
+    font-size: 0.7em;
+    margin-top: 1rem;
+  }
+  .middle-content .card {
+    font-size: 18px;
+    text-align: start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 3rem 1.5rem 2.2rem 7rem;
+    margin-bottom: 3rem;
+    width: 85%;
+  }
+  .middle-content .card__text {
+    width: 45%;
+  }
+  .middle-content .card__text .title {
+    font-size: 1.8rem;
+    line-height: 1em;
+    margin-top: 0;
+  }
+  .middle-content .card__text .description {
+    margin-bottom: 0;
+  }
+  .middle-content .card img {
+    width: 40%;
+    padding: 1rem;
+  }
+  .middle-content .img-right {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .middle-content .ready-btn {
+    width: 50rem;
+    padding: 2.5rem 0 2rem 0;
+    top: 7rem;
+  }
+  .middle-content .ready-btn .title {
+    font-size: 2.2em;
+  }
+  .middle-content .ready-btn__btn {
+    margin-top: 0.5rem;
+    font-size: 18px;
+    padding: 1.8rem 6.5rem;
+  }
+  .footer {
+    padding: 12rem 5rem 3.8rem 7rem;
+  }
+  .footer__logo {
+    width: 14.5rem;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .footer__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .footer__container > * {
+    margin: 0;
+  }
+  .footer__container--addressetc {
+    font-size: 16px;
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    max-width: 40%;
+  }
+  .footer__container--addressetc p {
+    max-width: 70%;
+  }
+  .footer__container--social {
+    text-align: start;
+  }
+  .footer .copyright {
+    text-align: end;
+  }
 }
 /*# sourceMappingURL=main.css.map */

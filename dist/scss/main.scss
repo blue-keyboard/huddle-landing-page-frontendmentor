@@ -1,4 +1,4 @@
-@import 'variables', 'globals', 'responsive';
+@import 'variables', 'globals';
 
 .top-container {
     background-image: url(../images/bg-hero-mobile.svg);
@@ -148,3 +148,5 @@
     }
     
 }
+
+@import 'responsive';
