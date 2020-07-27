@@ -1,8 +1,4 @@
-@import 'variables', 'globals';
-
-// body {
-//     width: 100vh;
-// }
+@import 'variables', 'globals', 'responsive';
 
 .top-container {
     background-image: url(../images/bg-hero-mobile.svg);
@@ -15,7 +11,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     img { height: 1rem; width: auto; }
 
     &__btn {
@@ -33,9 +28,7 @@
     text-align: center;
     padding: 4rem 1.5rem 1.5rem 1.5rem;
 
-    .title {
-        font-size: 1.5em;
-    }
+    .title { font-size: 1.5em; }
 
     img {
         max-width: 100%;
@@ -94,7 +87,6 @@
     background: $primary-color;
     color: #fff;
     padding: 8.5rem 1.2rem 2.5rem 1.5rem;
-    // > * { margin-bottom: 1.2rem; }
 
     &__logo {
         width: 10rem;
@@ -109,7 +101,6 @@
         &--addressetc {
             margin: 1.2rem 0 2rem 0;
             > * {
-                // font-size: 1px;
                 display: flex;
                 align-items: flex-start;
                 margin-bottom: 1.5rem;
@@ -120,11 +111,13 @@
                 p {margin: 0;}
             }
         }
+
         a {
             display: inline-block;
             margin-bottom: 1rem;
             font-size: 18px;
         }
+
         &--careeretc {margin-bottom: 3rem;}
 
         &--social {
@@ -155,5 +148,3 @@
     }
     
 }
-
-@import 'responsive';

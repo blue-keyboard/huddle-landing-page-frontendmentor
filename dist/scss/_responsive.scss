@@ -1,3 +1,5 @@
+
+//desktop medium screen
 @media screen and (min-width: 960px) {
 
     body { font-size: 18px; }
@@ -35,7 +37,6 @@
     }
 
     .middle-content {
-
         .card {
             font-size: 18px;
             text-align: start;
@@ -65,9 +66,9 @@
 
         .ready-btn {
             width: 50rem;
-            .title {font-size: 2.2em}
             padding: 2.5rem 0 2rem 0;
             top: 7rem;
+            .title {font-size: 2.2em;}
 
             &__btn {
                 margin-top: 0.5rem;
@@ -79,6 +80,7 @@
 
     .footer {
         padding: 12rem 5rem 3.8rem 7rem;
+
         &__logo {
             width: 14.5rem;
             height: auto;
@@ -87,18 +89,13 @@
 
         &__container {
             flex-direction: row;
-
-            >*{
-                margin: 0;
-                flex-grow: 1;
-            }
+            > * { margin: 0; }
 
             &--addressetc {
                 font-size: 16px;
                 flex-grow: 2;
                 max-width: 40%;
                 p {max-width: 70%}
-                // margin-right: 8rem;
             }
 
             &--social {text-align: start;}
