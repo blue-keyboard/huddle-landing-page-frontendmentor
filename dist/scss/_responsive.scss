@@ -89,7 +89,10 @@
 
         &__container {
             flex-direction: row;
-            > * { margin: 0; }
+            > * { 
+                margin: 0;
+                flex-grow: 1;
+            }
 
             &--addressetc {
                 font-size: 16px;
